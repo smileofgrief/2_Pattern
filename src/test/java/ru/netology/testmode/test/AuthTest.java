@@ -72,4 +72,3 @@ public class AuthTest {
         $("[data-test-id='error-notification'] [class='notification__content']").shouldHave(Condition.exactText("Ошибка! " + "Неверно указан логин или пароль"));
     }
 }
-}
